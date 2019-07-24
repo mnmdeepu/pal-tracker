@@ -2,6 +2,8 @@
 applications:
 - name: pal-tracker
   path: build/libs/pal-tracker.jar
+  services:
+    - tracker-database
   routes:
   - route: pal-tracker-deepika.apps.evans.pal.pivotal.io
   env:
